@@ -24,7 +24,7 @@ struct ContentView: View {
             // Foreground
             ZStack {
                 
-                // MARK: - CIRCLE SET 1
+                // CIRCLE SET 1 (STRAIGHT UP AND DOWN)
                 ZStack {
                     Circle()
                         .fill(LinearGradient(gradient: Gradient(colors: [.green, .white]),
@@ -41,7 +41,7 @@ struct ContentView: View {
                 }
                 .opacity(0.5)
                 
-                // MARK: - CIRCLE SET 2
+                // CIRCLE SET 2 (60 DEGREES TO THE RIGHT)
                 ZStack {
                     Circle()
                         .fill(LinearGradient(gradient: Gradient(colors: [.green, .white]),
@@ -59,7 +59,7 @@ struct ContentView: View {
                 .opacity(0.5)
                 .rotationEffect(.degrees(60))
                 
-                // MARK: - CIRCLE SET 3
+                // CIRCLE SET 3 (120 DEGREES TO THE RIGHT)
                 ZStack {
                     Circle()
                         .fill(LinearGradient(gradient: Gradient(colors: [.green, .white]),
