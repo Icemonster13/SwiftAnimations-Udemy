@@ -23,17 +23,18 @@ struct ContentView: View {
                            startRadius: 20,
                            endRadius: 600)
             
-            // MARK: - RECORD PLAYER
+            // RECORD PLAYER
             RecordPlayerBoxView()
                 .offset(y: -100)
             
-            // MARK: - RECORD
+            // RECORD
             VStack {
                 RecordView(degrees: $degrees, shouldAnimate: $shouldAnimate)
                 
-                // MARK: - ARM
+                // RECORD PLAYER ARM
                 RecordPlayerArmView(rotateArm: $rotateArm)
                 
+                // START and STOP BUTTON
                 Button {
                     shouldAnimate.toggle()
                     if shouldAnimate {
