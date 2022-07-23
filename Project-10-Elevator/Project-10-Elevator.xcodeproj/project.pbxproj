@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3CBCD17288C19B300D13B84 /* ElevatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBCD16288C19B300D13B84 /* ElevatorApp.swift */; };
+		C3CBCD19288C19B300D13B84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBCD18288C19B300D13B84 /* ContentView.swift */; };
+		C3CBCD1B288C19B300D13B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3CBCD1A288C19B300D13B84 /* Assets.xcassets */; };
+		C3CBCD1E288C19B300D13B84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3CBCD1D288C19B300D13B84 /* Preview Assets.xcassets */; };
+		C3CBCD26288C1A0B00D13B84 /* doorsOpenClose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C3CBCD24288C1A0B00D13B84 /* doorsOpenClose.m4a */; };
+		C3CBCD27288C1A0B00D13B84 /* elevatorChime.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C3CBCD25288C1A0B00D13B84 /* elevatorChime.m4a */; };
+		C3CBCD29288C1B3900D13B84 /* ElevatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBCD28288C1B3900D13B84 /* ElevatorView.swift */; };
+		C3CBCD2B288C1C9900D13B84 /* FrameAndDoorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBCD2A288C1C9900D13B84 /* FrameAndDoorsView.swift */; };
+		C3CBCD2D288C1F8500D13B84 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CBCD2C288C1F8500D13B84 /* PlaySound.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3CBCD13288C19B200D13B84 /* Project-10-Elevator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project-10-Elevator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3CBCD16288C19B300D13B84 /* ElevatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorApp.swift; sourceTree = "<group>"; };
+		C3CBCD18288C19B300D13B84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C3CBCD1A288C19B300D13B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3CBCD1D288C19B300D13B84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3CBCD24288C1A0B00D13B84 /* doorsOpenClose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = doorsOpenClose.m4a; sourceTree = "<group>"; };
+		C3CBCD25288C1A0B00D13B84 /* elevatorChime.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = elevatorChime.m4a; sourceTree = "<group>"; };
+		C3CBCD28288C1B3900D13B84 /* ElevatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorView.swift; sourceTree = "<group>"; };
+		C3CBCD2A288C1C9900D13B84 /* FrameAndDoorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAndDoorsView.swift; sourceTree = "<group>"; };
+		C3CBCD2C288C1F8500D13B84 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3CBCD10288C19B200D13B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3CBCD0A288C19B200D13B84 = {
+			isa = PBXGroup;
+			children = (
+				C3CBCD15288C19B200D13B84 /* Project-10-Elevator */,
+				C3CBCD14288C19B200D13B84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3CBCD14288C19B200D13B84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3CBCD13288C19B200D13B84 /* Project-10-Elevator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3CBCD15288C19B200D13B84 /* Project-10-Elevator */ = {
+			isa = PBXGroup;
+			children = (
+				C3CBCD16288C19B300D13B84 /* ElevatorApp.swift */,
+				C3CBCD18288C19B300D13B84 /* ContentView.swift */,
+				C3CBCD2C288C1F8500D13B84 /* PlaySound.swift */,
+				C3CBCD28288C1B3900D13B84 /* ElevatorView.swift */,
+				C3CBCD2A288C1C9900D13B84 /* FrameAndDoorsView.swift */,
+				C3CBCD24288C1A0B00D13B84 /* doorsOpenClose.m4a */,
+				C3CBCD25288C1A0B00D13B84 /* elevatorChime.m4a */,
+				C3CBCD1A288C19B300D13B84 /* Assets.xcassets */,
+				C3CBCD1C288C19B300D13B84 /* Preview Content */,
+			);
+			path = "Project-10-Elevator";
+			sourceTree = "<group>";
+		};
+		C3CBCD1C288C19B300D13B84 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C3CBCD1D288C19B300D13B84 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3CBCD12288C19B200D13B84 /* Project-10-Elevator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3CBCD21288C19B300D13B84 /* Build configuration list for PBXNativeTarget "Project-10-Elevator" */;
+			buildPhases = (
+				C3CBCD0F288C19B200D13B84 /* Sources */,
+				C3CBCD10288C19B200D13B84 /* Frameworks */,
+				C3CBCD11288C19B200D13B84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project-10-Elevator";
+			productName = "Project-10-Elevator";
+			productReference = C3CBCD13288C19B200D13B84 /* Project-10-Elevator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3CBCD0B288C19B200D13B84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C3CBCD12288C19B200D13B84 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C3CBCD0E288C19B200D13B84 /* Build configuration list for PBXProject "Project-10-Elevator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3CBCD0A288C19B200D13B84;
+			productRefGroup = C3CBCD14288C19B200D13B84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3CBCD12288C19B200D13B84 /* Project-10-Elevator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3CBCD11288C19B200D13B84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CBCD1E288C19B300D13B84 /* Preview Assets.xcassets in Resources */,
+				C3CBCD27288C1A0B00D13B84 /* elevatorChime.m4a in Resources */,
+				C3CBCD26288C1A0B00D13B84 /* doorsOpenClose.m4a in Resources */,
+				C3CBCD1B288C19B300D13B84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3CBCD0F288C19B200D13B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CBCD2D288C1F8500D13B84 /* PlaySound.swift in Sources */,
+				C3CBCD29288C1B3900D13B84 /* ElevatorView.swift in Sources */,
+				C3CBCD19288C19B300D13B84 /* ContentView.swift in Sources */,
+				C3CBCD2B288C1C9900D13B84 /* FrameAndDoorsView.swift in Sources */,
+				C3CBCD17288C19B300D13B84 /* ElevatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C3CBCD1F288C19B300D13B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3CBCD20288C19B300D13B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3CBCD22288C19B300D13B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Project-10-Elevator/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PWD73ANN2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelpascucci.Project-10-Elevator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3CBCD23288C19B300D13B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Project-10-Elevator/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PWD73ANN2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelpascucci.Project-10-Elevator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3CBCD0E288C19B200D13B84 /* Build configuration list for PBXProject "Project-10-Elevator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3CBCD1F288C19B300D13B84 /* Debug */,
+				C3CBCD20288C19B300D13B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3CBCD21288C19B300D13B84 /* Build configuration list for PBXNativeTarget "Project-10-Elevator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3CBCD22288C19B300D13B84 /* Debug */,
+				C3CBCD23288C19B300D13B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3CBCD0B288C19B200D13B84 /* Project object */;
+}
